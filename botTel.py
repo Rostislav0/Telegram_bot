@@ -4,6 +4,9 @@ from telebot import types
 from transfer_style import Style_Transfer
 from telebot.async_telebot import AsyncTeleBot
 import os
+
+os.mkdir("pictures")
+
 bot = AsyncTeleBot('2110529010:AAH0tkIHL74pQbphax1XPt-D7avkEc2knL0')
 
 path = 'pictures/'
